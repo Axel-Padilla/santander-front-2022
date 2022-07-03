@@ -3,8 +3,10 @@ body {
 }
 
 h1 {
-    color: #46484c;
+    color: #025157;
+    /* color: #46484c; */
     text-align: center;
+    font-family: 'Alegreya', serif;
 }
 
 p {
@@ -28,6 +30,8 @@ button {
 
 li {
     display: inline;
+    margin: 0 25px 0;
+    color: #025157;
 }
 
 .header > * {
@@ -46,19 +50,36 @@ li {
     width: 15%;
 }
 .navbar {
-    width: 70%;
-    text-align: right;
+    width: 69%;
+    text-align: left;
     color: #025157;
+    font-family: sans-serif;
     font-weight: 500;
+    height: 45px;
 }
 
 .actions {
-    width: 15%;
-    text-align: right;
+    width: 16%;
+    text-align: left;
     font-size: 14px;
     font-weight: 600;
 }
 
+.actions > * {
+    margin: 0 10px 0;
+}
+
+.actions > a {
+    color: #67b54b;
+}
+
+.actions > button {
+    color: #fff;
+    background-color: #67b54b;
+    border: 0;
+    padding: 12px 14px;
+    border-radius: 5px;
+}
 .main {
     margin-top: 140px;
     text-align: center;
