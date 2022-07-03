@@ -58,3 +58,8 @@ li {
     font-size: 14px;
     font-weight: 600;
 }
+
+.main {
+    margin-top: 140px;
+    text-align: center;
+}
