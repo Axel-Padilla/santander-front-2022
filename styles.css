@@ -64,7 +64,8 @@ li {
     font-family: sans-serif;
     font-weight: 500;
     height: 45px;
-    margin-bottom: 30px;
+/* El margin bottom se utilizó para tratar de centrar los elementos de texto en la navbar */
+    margin-bottom: 30px; 
 }
 
 .actions {
