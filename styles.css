@@ -67,7 +67,7 @@ li {
     height: 45px;
 /* El margin bottom se utilizó para tratar de centrar los elementos de texto en la navbar */
     margin-bottom: 30px;
-    margin-top: 10px; 
+    /* margin-top: 10px;  */
 }
 
 .actions {
