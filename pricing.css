@@ -17,6 +17,7 @@ h1 {
 
 .header{
     margin: 50px 0;
+    font-size: 0px;
 }
 
 .header p {
@@ -29,6 +30,13 @@ h1 {
 main {
     margin-top: 285px;
     text-align: center;
+}
+
+li {
+    display: inline;
+    margin: 0 25px 0;
+    color: #025157;
+    font-family: sans-serif;
 }
 
 body {
@@ -117,4 +125,27 @@ body {
       
     .faq .card .card-body a {
         color: #6abf4b;
+    }
+
+    @media (max-width: 575px) {
+        .container {
+            display: flex;
+        }
+
+        .container .row {
+            flex-direction: column;
+        }
+
+        main {
+            margin-top: 130px;
+            padding: 5%;
+        }
+
+        h1 {
+            font-size: 30px;
+        }
+
+        .logo {
+            width: 40%;
+        }
     }
