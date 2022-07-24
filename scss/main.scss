@@ -50,4 +50,46 @@
         width: 180px;
         margin-bottom: 15px;
     }
-}
+
+    .card {
+        .card-body {
+            .card-title {
+                font-size: 22px;
+                color: $post-target-text-color;
+            }
+            .metadata {
+                font-size: 16px;
+
+                .category {
+                    color: $post-target-emph-color;
+                }
+                .read-time {
+                    color: $post-target-sec-color;
+                }
+            }
+            .card-text {
+                font-size: 14px;
+                color: $post-target-text-color;
+
+                .read-more {
+                    text-decoration: underline;
+                }
+            }
+            .author {
+                img {
+                    border-radius: 50%;
+                    width: 35px;
+                    height: 35px;
+                }
+
+                p {
+                    margin-left: 5px;
+                    margin-top: 10px;
+                    font-weight: 500;
+                    font-size: 12px;
+                    color: $post-target-text-color;
+                }
+            }
+        }
+    }
+} 
