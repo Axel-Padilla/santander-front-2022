@@ -112,7 +112,7 @@ body {
 
     .green-arrow-animated {
       position: absolute;
-      animation-name: up-and-down;
+      animation-name: up-and-down, around;
       animation-duration: 3s;
       animation-timing-function: linear;
       animation-iteration-count: infinite;
@@ -127,10 +127,17 @@ body {
       }
     }
 
+
+    @keyframes around {
+      from {left: -270px;}
+      to {left: 270px;}  
+    }
+
     @keyframes up-and-down {
-      0% {top: 0px;}
-      50% {top: -60px;}
-      100% {top: 0px;}
+      0% {top: 0px;} // animation starts
+      50% {top: -60px;} // animation goes to the final position
+      100% {top: 0px;} // movement to return to the original position
+      // Also we could divide the steps with more details, using 25%, 75%, etc.
     }
   }
 
