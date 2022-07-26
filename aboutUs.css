@@ -84,4 +84,43 @@ body {
   font-size: 30px;
 }
 
+.green-arrow {
+  margin: 0 auto;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 35px;
+}
+.green-arrow .green-arrow-container {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 65px;
+}
+.green-arrow .green-arrow-animated {
+  position: absolute;
+  animation-name: up-and-down;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  margin-top: 40px;
+  width: 130px;
+  height: 130px;
+}
+.green-arrow .green-arrow-animated img {
+  width: 130px;
+  transform: rotate(-90deg);
+}
+@keyframes up-and-down {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: -60px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
 /*# sourceMappingURL=aboutUs.css.map */
